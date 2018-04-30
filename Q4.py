@@ -1,7 +1,7 @@
 def readRecord():
     recordFile = open("phonebills.txt", "r")
     thisRecord = recordFile.readline().strip.split(" ")
-    
+
 
 def printOutput():
     pass
