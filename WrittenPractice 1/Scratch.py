@@ -80,3 +80,7 @@ def factorialRecursion(num):
 num = 5
 print("factorialIteration", factorialIteration(num))
 print("factorialRecursion", factorialRecursion(num))
+
+
+a = input("Type something: ")
+print(str(a))
