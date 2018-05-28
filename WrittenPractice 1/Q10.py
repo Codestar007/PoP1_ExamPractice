@@ -20,13 +20,17 @@ for i in range(len(mylist3)):
 
 #D
 x = -54
-print("negative") if x < 0  else print("positive")
+if x < 0:print("negative")
+elif x == 0: print("Zero")
+else: print("positive")
+
+##value_true if <test> else value_false
 
 #E
 list = [1,2,3,4,5]
 file = open("foo.txt", 'w')
 for item in list:
-    file.write(str(item))
+    file.write(str(item) + '\n')
 file.close()
 
 #F
@@ -46,5 +50,13 @@ def test_randBuzz():
 #J
 columns, rows =  10, 10
 #ten_by_tenList = [][]
-result = [["None"] for r in rows for c in columns]
+result = [["None" for r in range(rows)] for c in range(columns)]
 print[result]
+
+a = [[[None] * 10] * 10]
+
+# OR
+
+a = [ ]
+    for i in range(0, 10):
+    a.append(10 * [None])
