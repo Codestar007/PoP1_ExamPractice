@@ -1,0 +1,12 @@
+{
+    "python.unitTest.pyTestArgs": [
+        "tests"
+    ],
+    "python.unitTest.pyTestEnabled": true,
+    "travis.repository": "assignment-three-sudoku-Codestar007",
+    "travis.github_user": "Codestar007",
+    "travis.github_password": "Jekakaw3",
+    "travis.pro": true,
+    "travis.github_oauth_token": "mvCp9mv1FsopMN4zxtQB",
+    "travis.username": "Codestar007"
+}

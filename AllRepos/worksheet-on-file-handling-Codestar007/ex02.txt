@@ -1,0 +1,6 @@
+If the file already exists in the current directory, 
+then the file is opened and returned as a stream to the  infile variable.
+
+if however the file does not already exist, then a new file with the name
+'input.txt' is created and returned as a stream to the  infile variable.
+

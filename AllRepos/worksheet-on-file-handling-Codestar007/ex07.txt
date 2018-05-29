@@ -1,0 +1,3 @@
+The non existent file will be created.
+E.g test1 = open('output.txt', 'w') will create the file 'output.txt'
+

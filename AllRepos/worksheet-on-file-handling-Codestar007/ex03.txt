@@ -1,0 +1,6 @@
+What is wrong is that one is trying to write to a stream that was open
+in read ('r') mode. 
+
+The file will have to be open with 'w' as the second parameter for line 2 of 
+the code to work.
+

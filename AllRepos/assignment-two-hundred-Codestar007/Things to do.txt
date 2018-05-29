@@ -1,0 +1,19 @@
+Refactoring:
+    1. Done - seperate functions as much as possible (input/output vs computational)
+    1. Done  - a create a mainfunction for starting the program.
+    2. Done - make selfcontain function for user input and validation
+    2.a Done - check that input validation error handling catches blank and return key responses.
+    3. Done - ensure code is testable.
+    4. Done - use '__main__': in function to call main code to prevent auto  run during unit testing
+    5. Done - consolidate/reduce redundant variable names
+    6. Done - create pytest codes.
+    7. Done - Check result print out it may not be accurate.e.g.
+            Turn: 12 | You
+            Current scores: You = 95 | Computer = 90
+            You are 5 points AHEAD of the Computer
+            Roll dice again? 'Y'(yes) or 'N'(no):y
+            Roll dice again? 'Y'(yes) or 'N'(no):y
+            Roll dice again? 'Y'(yes) or 'N'(no):n
+    8. Done -  make sure "fair play" is correctly implimented once specification
+        is clarified by Dr Keith M.
+    9. Done - Clean up Debug print codes.

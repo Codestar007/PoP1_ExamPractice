@@ -1,0 +1,11 @@
+import os
+
+path = r"c:\temp\output.dat"
+
+test1 = open(path, 'r')
+print(test1.readline())
+test1.close()
+
+
+Noe: key thing is to preceed the pathname with 'r' (raw) so 
+that the bakslah is not misinterpreted when you execute  a file open.

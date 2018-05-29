@@ -1,0 +1,79 @@
+Help on module Hundred:
+
+NAME
+    Hundred
+
+DESCRIPTION
+    Name:  Kizito Jegede
+    ID: Codestar007
+    Course: MSc CS - PoP 1
+    
+    Assignment Two: (Please refer to 'README.dm' for full specification)
+    Program Title: Hundred
+    Program Description: An interactive game in which two players take
+                        turns to roll a die. At the end of each turn, the
+                        score for that turn is added to the player's total
+                        score. The first player to reach or exceed 100 wins.
+
+FUNCTIONS
+    ask_yes_or_no(prompt)
+        Prints the prompt as a question to the player. Returns `True`
+        if player responds with a string with first character 'y'mor 'Y',
+        returns `False` if first character of player response is 'n' or 'N'
+        else repeats question until the player provides an acceptable response.
+    
+    compare_scores(computer_score, human_score)
+        This funcion constructs a comparison between the current human
+        and computer_score and returns a string value.
+        Arguments (Type):= current computer and human scores (*integer*).
+    
+    computer_move(computer_score, human_score)
+        This function computes the computer rolls some number of times,
+        displays the result of each roll, and the function returns the
+        result (either 0 or the total of the rolls). The function uses an
+        algorithim  to determine frequency of play: `gently` when computer
+        is ahead and agressively if it is behind.
+        Arguments (Type):= current computer and human scores (*integer*).
+    
+    human_move(computer_score, human_score)
+        This function displays a player's and the computer's current
+        score, and how far behind (or ahead) the player is. Then repeatedly
+        asks whether the player wants to roll again. This continues until either:
+        -   The player decides not to roll again. The function returns the
+            total of the rolls made during this move.
+        -   The player rolls a 1. The function returns 0.
+        Arguments (Type):= current computer and human scores (*integer*).
+    
+    instructions()
+        This function tells the player the rules of the game.
+    
+    is_game_over(computer_score, human_score)
+        Returns `True` if either player has 100 or more, and the players
+        are not tied, otherwise it returns `False`. Called only after
+        the human player's move.
+        Arguments (Type):= current computer and human scores (*integer*).
+    
+    main()
+        The program starts execution here. It calls various
+        functions; to print game instructions, execute computer and human
+        player turns, check and apply fair play rule (if required), apply
+        tie break and prints the game result.
+    
+    play_game(count_of_turns, c_turns, c_score, h_turns, h_score)
+        Function is implemented to streamline the lenght of code in
+        "main()". It takes 5 parameters; count of turns, computer
+        turns, computer score, human turns, human score and returns the
+        updated values as a 5 tuple (int).
+    
+    roll()
+        Returns a random number in the range 1 to 6
+    
+    show_results(computer_score, human_score)
+        Function is called when the game has ended to tell
+        whether the human player won or lost, and by how much.
+        Arguments (Type):= current computer and human scores (*integer*).
+
+FILE
+    /assignment-two-hundred-codestar007/hundred.py
+
+

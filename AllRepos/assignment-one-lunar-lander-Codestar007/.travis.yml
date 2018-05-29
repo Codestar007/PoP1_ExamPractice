@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.5"
+  - "3.6"
+cache: pip
+# command to install dependencies
+install:
+  - "pip install -r requirements.txt"
+# command to run tests
+script:
+  - python test_calc_altitude.py
+  - python tests/test_calc_fuel_balance.py
+  - python tests/test_calc_fuel_burn_adjustment.py
+  - python tests/test_calc_velocity.py
+  - python tests/test_q_has_module_landed.py
+  - python test_sample.py

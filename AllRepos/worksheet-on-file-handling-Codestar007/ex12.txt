@@ -1,0 +1,9 @@
+You get an error message:
+
+E.g.
+>>> s = open("sample.txt","r")
+>>> s.seek(1, 2)
+Traceback (most recent call last):
+  File "<pyshell#32>", line 1, in <module>
+    s.seek(1, 2)
+io.UnsupportedOperation: can't do nonzero end-relative seeks

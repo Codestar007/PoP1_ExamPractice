@@ -1,0 +1,7 @@
+python -m pydoc <module name>
+without the".py" extension in the module name.
+
+
+e.g 
+
+C:\Personal Data\Education\Birkbeck\Modules\POP 1\GithubRepos\assignment-three-sudoku-Codestar007>python -m pydoc sudoku > Sudoku_documentation.md

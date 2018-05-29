@@ -1,0 +1,27 @@
+1. Basic Class - Done
+2. Inheritance - Done
+        >>> type(a)
+        <class 'courses.BirkbeckCourse'>
+        >>> isinstance(a, BirkbeckCourse)
+        True
+        >>> isinstance(b, BirkbeckCourse)
+        True
+        >>> isinstance(x, BirkbeckCourse)
+        True
+        >>> isinstance(x, BirkbeckCSISCourse)
+        True
+        >>> type(a) == type(b)
+        False
+        >>> type(b) == type(x)
+        True
+        >>> a == b
+        False
+        >>> b == x
+        False
+3. Additional Attributes
+4. Implementing Prerequisites
+5. Instructors (Hard)
+6. Catalog
+7. More Inheritance
+8. Timed Key-Value Store (Hard)
+9. Remove (Hard)

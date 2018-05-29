@@ -1,0 +1,4 @@
+infile = open("input.txt", "w") 
+line = infile.write("Hello,\nWorld!" )
+infile.close()
+

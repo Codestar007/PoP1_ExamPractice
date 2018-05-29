@@ -1,0 +1,6 @@
+With sequential access, you read aaccess all data prior to the data set you need.
+An example if reading files oneline at a time and checking for a match. 
+This is generally slowere than random access.
+
+Whereas with random access, you can go to a specific data set without having to 
+access the previous data sets. An example of random access is dictionaries or databses.

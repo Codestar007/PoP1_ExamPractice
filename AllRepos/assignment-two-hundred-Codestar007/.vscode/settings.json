@@ -1,0 +1,7 @@
+{
+    "python.unitTest.pyTestArgs": [
+        "tests"
+    ],
+    "python.unitTest.pyTestEnabled": true,
+    "python.pythonPath": "C:\\Users\\GMD001\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe"
+}

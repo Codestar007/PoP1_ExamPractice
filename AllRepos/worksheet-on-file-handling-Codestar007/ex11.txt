@@ -1,0 +1,13 @@
+
+(a) A file marker is an implicit representation of the current position of a file object.
+
+(b) The file marker can be moved by invoking the 'seek(offset)' method of a file object. 
+    Values for whence are:
+    
+    E.g. `fileobject.seek(4)` moves the marker 4 charcters ahead of the current position.
+
+(c) the current file marker position can be determined by  calling the 'tell() method. 
+    
+    E.g. `fileobject.tell()`
+
+

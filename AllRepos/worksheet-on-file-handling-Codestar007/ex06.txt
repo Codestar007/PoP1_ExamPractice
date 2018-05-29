@@ -1,0 +1,2 @@
+The code will fail and you get an error message e.g. "FileNotFoundError: [Errno 2] No such file or directory:"
+

@@ -1,0 +1,10 @@
+Refactoring:
+    1. Done - seperate functions for calculating fuel to burn, fuel balance,  velocity and altitude
+    1.a Done - create a mainfunction for starting the program.
+    2. Done -  make selfcontain function for user input and validation
+    2.a Done - check that input validation error handling catches blank and return key responses.
+    3. Done - ensure code is testable.
+    4. Done - use '__main__': in function to call main code to prevent auto  run during unit testing
+    5. Done - consolidate/reduce redundant variable names
+    6. Done - create unit test codes.
+    7. Done - Ensure code  follows Python convention - PEP 8 and 257

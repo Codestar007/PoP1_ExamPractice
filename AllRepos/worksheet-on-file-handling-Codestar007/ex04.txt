@@ -1,0 +1,6 @@
+Assumin the the file "input.txt" already exist (created in question 2),
+then the problem is in line 3 of the code :trying to perform an operation on a closed file. 
+The file was closed in line 2.
+
+Actual error "ValueError: I/O operation on closed file."
+

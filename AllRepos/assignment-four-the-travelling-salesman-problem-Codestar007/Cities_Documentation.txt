@@ -1,0 +1,86 @@
+Help on module cities:
+
+NAME
+    cities
+
+DESCRIPTION
+    Name:  Kizito Jegede
+    ID: Codestar007
+    Course: MSc CS - PoP 1
+    
+    Assignment Four: (Please refer to 'README.dm' for full specification)
+    Program Title: Travelling salesman problem
+    Program Description:    This program aims to solves a simplified version
+                            of the travelling salesman problem. The salesman 
+                            wishes to visit a number of "cities", only once, 
+                            then return to their starting point (it doesn't 
+                            matter what city is the starting point.). However, 
+                            the salesman also wishes to minimise the total 
+                            distance that must be traveled.
+
+FUNCTIONS
+    compute_total_distance(road_map)
+        Returns, as a floating point number, the sum of the distances of all 
+        the connections in the `road_map`.
+    
+    find_best_cycle(road_map)
+        Using a combination of `swap_cities` and `swap_adjacent_cities`, 
+        try `10000` swaps, and each time keep the best cycle found so far. 
+        After `10000` swaps, return the best cycle found so far.
+    
+    main()
+        Reads in, and prints out, the city data, then creates the "best"
+        cycle and prints it out.
+    
+    next_nearest_cities(road_map, city_index)
+        A heuristic helper function. given a roadmap, and a city index,
+        orders the cities according to the next nearest city 
+        from the starting city and subsequent cities (city A to B to C etc..).
+        Returns the tuple: (new_road_map, total_distance).
+    
+    print_cities(road_map)
+        Prints a list of cities, along with their locations. 
+        Only one or two digits after the decimal point of the location.
+    
+    print_map(road_map)
+        Prints, in an easily understandable format, the cities and 
+        their connections, along with the cost for each connection 
+        and the total cost.
+    
+    print_map_continue(road_map, i, dist_diff, add_new_line)
+        Splits the `print_map` function. Given a road_map, distance between
+        two cities, index number of city A, and a new line feed argument,
+        works out the print string for the cycle, then returns the print string.
+    
+    read_cities(file_name)
+        Reads in the cities from the given `file_name`, and return 
+        them as a list of four-tuples: 
+            [(state, city, latitude, longitude), ...]
+    
+    shortest_city_to_city_map(road_map)
+        A heuristic helper function. Given a roadmap, determines which map 
+        has the shortest total distance by constructing calling 
+        `next_nearest_cities` a new map based on particular starting 
+        city and its next nearest city (repeated with a different 
+        city as a starting point).
+        Returns tuple: (new_road_map, new_total_distance) if the new 
+        path is shorter than the original, else returns the original
+        road map and distance.
+    
+    swap_adjacent_cities(road_map, index)
+        Take the city at location `index` in the `road_map`, and the city at 
+        location `index+1` (or at `0`, if `index` refers to the last element 
+        in the list), swap their positions in the `road_map`, compute the 
+        new total distance, and return the tuple :
+            (new_road_map, new_total_distance)
+    
+    swap_cities(road_map, index1, index2)
+        Take the city at location `index` in the `road_map`, and the 
+        city at location `index2`, swap their positions in the `road_map`, 
+        compute the new total distance, and return the tuple: 
+            (new_road_map, new_total_distance)
+
+FILE
+    c:\birkbeck\pop1\pop1excercises\assignment-four-the-travelling-salesman-problem-codestar007\cities.py
+
+

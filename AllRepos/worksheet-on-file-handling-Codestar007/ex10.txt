@@ -1,0 +1,4 @@
+Text files contain characters (a sequence of bytes) that are easily readable using a text editor.
+
+Binary files can generally contain a mix of text and other data types, stored 
+in a customised format and needs a special program to view the content.
